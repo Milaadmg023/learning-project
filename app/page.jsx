@@ -8,8 +8,7 @@ export const metadata = {
   keyWords: "Home, Property ,Sell , Buy"
 }
 
-const HomePage = async() => {
-  await connectDB();
+const HomePage = () => {
   return (
     <>
     <Hero/>
